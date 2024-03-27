@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera pg </title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- FON (iconos): paso 21 -->
+    <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+ 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Galindo&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Twinkle+Star&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+
+
+  </head>
+<body>
+<div class="container"> 
+
+ <header id="encabezado">
+    <a href="https://www.google.com/">
+      
+         <i class="fa-solid fa-code" style="color: aliceblue;"></i> 
+    </a>
+    <nav>
+
+      <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+
+
+      <ul class="menu">
+          
+        <li> <a href="index.html">Inicio  </a></li> 
+        <li> <a href="#seccion-principal">  Acerca de mi </a></li>
+        <li> <a href="#Trabajos"> Trabajos </a></li>
+        <li> <a href="#contacto8"> Contacto</a></li> 
+        <li> <a href="#redes-sociales"> Redes Sociales</a></li> 
+        
+       </ul>
+    </nav>
+  </header>
+
+<main id="seccion-principal">
+    <section class="seccion-1"> 
+
+       <div class="acerca-de">
+
+          <h2 class="fuente-acento">Acerca de mi</h2>
+
+            <p class="parrafo1">
+            ¡Bienvenido a mi página! Aquí, aprenderás más sobre mí."
+            </p>
+
+            <p class="parrafo2">
+                "Me llamo Tere, nací en Buenos Aires y vivo en Caballito. Me gusta el helado y salir a pasear en días de sol. Me encantaría aprender a programar para poder ayudar a las personas
+                 a mostrar lo que hacen."
+            </p>
+        </div>
+
+        <div class="acerca-imagen"> 
+            <img src="img/fotoperfil.avif" alt="fotoperfil" height="200px" >
+        </div>
+    </section>
+
+
+    <section class="seccion-2">
+        <img src="img/pexels-brandon-morrison-990344.jpg" alt="paisaje" width="100%">
+    </section>
+
+
+<section id="Trabajos"  class="seccion-3"> 
+  <h2 class="claseTitulo"> Trabajos </h2>
+ <div class="containerTrabajos"> 
+   
+
+     <div class="card-container">
+        <div class="card"> 
+          <img class="image-container"  src="img/conejo.jpg" alt="imagen">
+          <h4> Titulo 1</h4>
+            <p class="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. E
+                sse fugit iure itaque sunt sapiente culpa laborum doloribus, 
+                iste repellat libero voluptatem numquam beatae quaerat solu
+                ta in. Magnam consequatur saepe architecto
+                <br>
+                <a class="link" href="#"> Leer mas.</a> </p>
+          </div>
+     </div>
+
+
+     
+        <div class="card-container">
+           <div class="card"> 
+             <img class="image-container" src="img/perro.jpg" alt="imagen">
+             <h4> Titulo 2</h4>
+               <p class="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. E
+                   sse fugit iure itaque sunt sapiente culpa laborum doloribus, 
+                   iste repellat libero voluptatem numquam beatae quaerat solu
+                   ta in. Magnam consequatur saepe architecto <br>
+                   <a class="link" href="#"> Leer mas.</a> </p>
+             </div>
+        </div>
+
+
+        
+            <div class="card-container">
+               <div class="card"> 
+                 <img class="image-container"  src="img/pollo.jpg" alt="imagen">
+                 <h4> Titulo 3</h4>
+                   <p class="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. E
+                       sse fugit iure itaque sunt sapiente culpa laborum doloribus, 
+                       iste repellat libero voluptatem numquam beatae quaerat solu
+                       ta in. Magnam consequatur saepe architecto <br>
+                       <a class="link" href="#"> Leer mas.</a> </p>
+                 </div>
+            </div>
+          
+  </div>   
+
+  
+
+ </section>
+
+</main>
+
+
+
+<main id="contacto8" class="form-header">
+  <h1>Contacto</h1>
+  <p><em>¡Esperamos tu consulta!</em></p>
+
+  <form action="" method="get" class="formulario" id="form">
+
+    <div class="form-row">
+        <label for="nombre">Nombre</label>
+        <input id="nombre" name="nombre" type="text" />
+      </div>
+
+      <div class="form-row">
+        <label for="email">Email</label>
+        <input
+          id="email"
+          name="email"
+          type="email"
+          placeholder="pepe@gmail.com"
+          required
+        />
+      </div>
+
+      
+      <div class="form-row">
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje"></textarea>
+       </div>
+
+       <div class="form-row">
+        <button>Enviar</button>
+    </div>
+
+
+    <p class="alertas" id="alertas"> </p>
+    
+  </form>
+</main>
+
+
+
+
+
+
+<footer id="redes-sociales">
+    <div id="footer">
+        <a href="#"> <i class="fa-solid fa-heart"></i> </a>
+        <h3>Redes sociales</h3>
+        <div class="reddes"> 
+        <ul>
+            <li> <a href=""> <i class="fa-brands fa-facebook"></i> Facebook  </a></li> 
+            <li> <a href=""> <i class="fa-brands fa-square-instagram"></i> Instagran </a></li> 
+            <li> <a href="">  <i class="fa-brands fa-twitter"></i> Twitter </a></li>
+            <li> <a href=""> <i class="fa-brands fa-tiktok"></i> Tik Tok </a></li>
+        </ul>
+      </div>
+    </div>
+</footer>
+</div>
+<!-- java script  -->
+<script src="script.js"></script>
+</body>
+</html>
